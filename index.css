@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    ;
+    background: #dedede;
+
+}
+
+@font-face {
+  font-family: gotl;
+  src: url(./fonts/Metropolis-light.otf);
+  
+}
+@font-face{
+	font-family: gotm;
+  src: url(./fonts/Metropolis-Bold.otf);
+}
+@font-face{
+	font-family: gotb;
+  src: url(./fonts/HomepageBaukasten-Book.ttf);
+}
+.gotl{
+	font-family: gotl;
+}
+.gotm{
+	font-family:gotm;
+}
+.gotb{
+	font-family: gotb;
+}
+
+.header{
+	padding-top: 10%;
+	padding-left: auto;
+	padding-right: auto;
+	font-size: 4em;
+}
+.icons{
+	margin: 0 auto;
+        display:flex;
+        max-width: 700px;
+        margin: 0 auto;
+        justify-content: space-around;
+        padding-top: 4%;
+    }
+
+.iconprop {
+  width: 115px;
+  height: 115px;
+
+}
+a,a:visited,a:link {
+ text-decoration: none;
+ color:inherit;
+
+}
+
+@media screen and (max-width:700px){
+	.header{
+	padding-top: 15%;
+	padding-left: auto;
+	padding-right: auto;
+	font-size: 2em;
+}
+.icons{
+	margin: 0 auto;
+        display:flex;
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-bottom:10px ;
+        padding-top: 10%;
+    }
+
+.iconprop {
+  width: 100px;
+  height: 100px;
+
+}
