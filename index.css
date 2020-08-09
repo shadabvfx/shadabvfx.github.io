@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    ;
+    background: #dedede;
+
+}
+
+@font-face {
+  font-family: gotl;
+  src: url(./fonts/GothamLight.ttf);
+  
+}
+@font-face{
+	font-family: gotm;
+  src: url(./fonts/GothamMedium.ttf);
+}
+@font-face{
+	font-family: gotb;
+  src: url(./fonts/GothamBook.ttf);
+}
+.gotl{
+	font-family: gotl;
+}
+.gotm{
+	font-family:gotm;
+}
+.gotb{
+	font-family: gotb;
+}
+
+.header{
+	padding-top: 10%;
+	padding-left: auto;
+	padding-right: auto;
+	font-size: 4em;
+}
+.icons{
+	margin: 0 auto;
+        display:flex;
+        max-width: 700px;
+        margin: 0 auto;
+        justify-content: space-around;
+        padding-top: 4%;
+    }
+
+.iconprop {
+  width: 115px;
+  height: 115px;
+
+}
+a,a:visited,a:link {
+ text-decoration: none;
+ color:inherit;
+
+}
+
+@media screen and (max-width:700px){
+	.header{
+	padding-top: 20%;
+	padding-left: auto;
+	padding-right: auto;
+	font-size: 2.2em;
+	padding-bottom: 10%;
+}
+.icons{
+	margin: 0 auto;
+        display:flex;
+        max-width: 470px;
+        margin: 0 auto;
+        justify-content: space-around;
+        margin-bottom:10px ;
+        padding-top: 10%;
+
+    }
+
+.iconprop {
+  width: 110px;
+  height: 110px;
+
+}
