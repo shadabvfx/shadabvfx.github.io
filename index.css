@@ -70,16 +70,16 @@ a,a:visited,a:link {
 .icons{
 	margin: 0 auto;
         display:flex;
-        max-width: 450px;
         margin: 0 auto;
+        max-width: 380px;
         justify-content: space-around;
         margin-bottom:10px ;
-        padding-top: 10%;
+        padding-top: 7%;
 
     }
 
 .iconprop {
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
 
 }
